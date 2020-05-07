@@ -22,8 +22,8 @@ sudo yum install -y git
 echo "========================================="
 echo "Start cfcli Installation....."
 echo "========================================="
-curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&source=github" | tar -zx
-sudo mv cf /usr/local/bin
+sudo wget -O /etc/yum.repos.d/cloudfoundry-cli.repo https://packages.cloudfoundry.org/fedora/cloudfoundry-cli.repo
+sudo yum install -y cf-cli
 ls -a /usr/local/bin/* |grep cf
 echo "========================================="
 echo "cfcli was installed!"
