@@ -12,11 +12,11 @@ echo "Updating.........."
 echo "========================================="
 sudo yum install -y update
 
-## Install git
+## Install git and wget
 echo "========================================="
 echo "Start git Installation....."
 echo "========================================="
-sudo yum install -y git
+sudo yum install -y git wget
 
 ## Install cfcli 
 echo "========================================="
@@ -24,7 +24,7 @@ echo "Start cfcli Installation....."
 echo "========================================="
 sudo wget -O /etc/yum.repos.d/cloudfoundry-cli.repo https://packages.cloudfoundry.org/fedora/cloudfoundry-cli.repo
 sudo yum install -y cf-cli
-ls -a /usr/local/bin/* |grep cf
+ls -a /usr/bin/* |grep cf
 echo "========================================="
 echo "cfcli was installed!"
 echo "API endpoint: https://api.run.pivotal.io"
