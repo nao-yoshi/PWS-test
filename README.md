@@ -14,6 +14,7 @@ This is the easiest way to test or demo for PWS from your PC using [CloudFoundry
 2. You need to install some softwares listed below on your PC (MAC OS or Windows OS).
    - [Git](https://git-scm.com/)
    - [VirtualBox](https://www.virtualbox.org/)
+   - [Vagrant](https://www.vagrantup.com/)
 
 
 ## Usage
