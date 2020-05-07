@@ -3,18 +3,17 @@ This repo is for preparing a test or demo environment of [Pivotal Web Service](h
 
 
 ## Description
-This is the easiest way to test or demo for PWS from your PC. With just one command, a VM(CentOS) will be deployed on VirtualBox. Tools and sample codes listed below are installed on the VM.
-- [cfcli](https://github.com/cloudfoundry/cli)
+This is the easiest way to test or demo for PWS from your PC using [CloudFoundry CLI](https://github.com/cloudfoundry/cli). To prepare the test or demo environment, you can create a VM(CentOS) on VirtualBox with somple commands. Tools and sample codes listed below will be installed on the VM.
+- [CloudFoundry CLI](https://github.com/cloudfoundry/cli)
 - git
 - sample codes for PWS
 
 
 ## Requirement
-Before you try it, you need an account on PWS. You can create an account from [here](https://run.pivotal.io/). Also you should create your "org" and "space" on PWS.
-
-You need to install some softwares listed below on your PC (MAC OS or Windows OS).
-- [Git](https://git-scm.com/)
-- [VirtualBox](https://www.virtualbox.org/)
+1. Before you try it, you need an account on PWS. You can create an account from [here](https://run.pivotal.io/). Also you should create your "org" and "space" on PWS.
+2. You need to install some softwares listed below on your PC (MAC OS or Windows OS).
+   - [Git](https://git-scm.com/)
+   - [VirtualBox](https://www.virtualbox.org/)
 
 
 ## Usage
